@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T02:09:09.629Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="_qMXwI7mI5unFB0-JcKu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T02:12:39.859Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="3uSEE-J6UNEkFc056yz1" version="22.0.4" type="github">
   <diagram name="Page-1" id="Qe8NNqC1n_HQHfVnkkSb">
-    <mxGraphModel>
+    <mxGraphModel dx="1083" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="de2frktTmuJ2hW_A-FVS-1" value="Perpus Digital:&lt;br style=&quot;font-size: 18px;&quot;&gt;Book Search Tool" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="370" y="70" width="360" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-2" value="Isi Data Buku" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="435" y="150" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-3" value="Isi Data Rak Buku" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="435" y="250" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-4" value="Isi Data Kelompok Buku" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="435" y="350" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-5" value="Pencarian Buku" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="435" y="460" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-9" value="Anggota" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-10" value="Pustakawan" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="860" y="200" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="de2frktTmuJ2hW_A-FVS-9" target="de2frktTmuJ2hW_A-FVS-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="350" as="sourcePoint" />
+            <mxPoint x="570" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="de2frktTmuJ2hW_A-FVS-2" target="de2frktTmuJ2hW_A-FVS-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="335" as="sourcePoint" />
+            <mxPoint x="445" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="de2frktTmuJ2hW_A-FVS-3" target="de2frktTmuJ2hW_A-FVS-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="200" as="sourcePoint" />
+            <mxPoint x="840" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="de2frktTmuJ2hW_A-FVS-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="de2frktTmuJ2hW_A-FVS-4" target="de2frktTmuJ2hW_A-FVS-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="674" y="296" as="sourcePoint" />
+            <mxPoint x="850" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
